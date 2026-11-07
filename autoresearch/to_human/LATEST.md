@@ -6,16 +6,18 @@ Status: running
 
 | Candidate | Clean / 3 | Engine use | Valid complete | Added / deleted / edit | File words / bytes | Markup bytes | Total new lexical | Provisional |
 |---|---:|---:|---:|---|---|---:|---:|---|
+| cb82dd8fdde41 | 3/3 | 0 | 3 | 0 / 0 / 0 | 6 / 38 (nonempty) | 17 | 8 | True |
 | c4ca75cf1dc18 | 3/3 | 0 | 3 | 0 / 0 / 0 | 7 / 42 (nonempty) | 17 | 9 | True |
 | c03b1ccded318 | 3/3 | 0 | 3 | 0 / 0 / 0 | 11 / 66 (nonempty) | 17 | 13 | True |
 | cf5a339b0cd90 | 3/3 | 0 | 3 | 0 / 0 / 0 | 14 / 96 (nonempty) | 17 | 16 | True |
 | c398e61a30e0a | 3/3 | 0 | 3 | 0 / 0 / 0 | 23 / 161 (nonempty) | 17 | 25 | True |
+| cad474ffcc205 | 3/3 | 0 | 3 | 0 / 0 / 0 | 5 / 33 (nonempty) | 17 | 7 | False |
 | c79f4ca65685d | 3/3 | 0 | 3 | 0 / 0 / 0 | 6 / 38 (nonempty) | 17 | 8 | False |
-| cb82dd8fdde41 | 3/3 | 0 | 3 | 0 / 0 / 0 | 6 / 38 (nonempty) | 17 | 8 | False |
 | c621fe189eb68 | 3/3 | 0 | 3 | 0 / 0 / 0 | 7 / 42 (nonempty) | 17 | 9 | False |
 | cb95e2979d94a | 3/3 | 0 | 3 | 0 / 0 / 0 | 8 / 48 (nonempty) | 17 | 10 | False |
 | c26bad62367ba | 3/3 | 0 | 3 | 0 / 0 / 0 | 8 / 48 (nonempty) | 17 | 10 | False |
 | c53b68ba22d7f | 3/3 | 0 | 3 | 0 / 0 / 0 | 11 / 66 (nonempty) | 17 | 13 | False |
+| c576e11754d0c | 2/3 | 1 | 3 | 0 / 0 / 0 | 5 / 34 (nonempty) | 17 | 7 | False |
 | c86889511725d | 2/3 | 1 | 3 | 0 / 0 / 0 | 13 / 92 (nonempty) | 17 | 15 | False |
 | c426be3c4660d | 1/3 | 2 | 3 | 0 / 0 / 0 | 13 / 92 (nonempty) | 17 | 15 | False |
 | cb5d7952a9c16 | 0/3 | 3 | 3 | 0 / 0 / 0 | 0 / 0 (empty) | 0 | 0 | False |
