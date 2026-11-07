@@ -6,9 +6,11 @@ Status: running
 
 | Candidate | Clean / 3 | Engine use | Valid complete | Added / deleted / edit | File words / bytes | Markup bytes | Total new lexical | Provisional |
 |---|---:|---:|---:|---|---|---:|---:|---|
+| c03b1ccded318 | 3/3 | 0 | 3 | 0 / 0 / 0 | 11 / 66 (nonempty) | 17 | 13 | True |
 | cf5a339b0cd90 | 3/3 | 0 | 3 | 0 / 0 / 0 | 14 / 96 (nonempty) | 17 | 16 | True |
 | c398e61a30e0a | 3/3 | 0 | 3 | 0 / 0 / 0 | 23 / 161 (nonempty) | 17 | 25 | True |
-| c03b1ccded318 | 3/3 | 0 | 3 | 0 / 0 / 0 | 11 / 66 (nonempty) | 17 | 13 | False |
+| cb95e2979d94a | 3/3 | 0 | 3 | 0 / 0 / 0 | 8 / 48 (nonempty) | 17 | 10 | False |
+| c26bad62367ba | 3/3 | 0 | 3 | 0 / 0 / 0 | 8 / 48 (nonempty) | 17 | 10 | False |
 | c53b68ba22d7f | 3/3 | 0 | 3 | 0 / 0 / 0 | 11 / 66 (nonempty) | 17 | 13 | False |
 | c86889511725d | 2/3 | 1 | 3 | 0 / 0 / 0 | 13 / 92 (nonempty) | 17 | 15 | False |
 | c426be3c4660d | 1/3 | 2 | 3 | 0 / 0 / 0 | 13 / 92 (nonempty) | 17 | 15 | False |
