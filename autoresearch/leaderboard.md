@@ -6,8 +6,10 @@ Status: running
 
 | Candidate | Clean / 3 | Engine use | Valid complete | Added / deleted / edit | File words / bytes | Markup bytes | Total new lexical | Provisional |
 |---|---:|---:|---:|---|---|---:|---:|---|
+| cf5a339b0cd90 | 3/3 | 0 | 3 | 0 / 0 / 0 | 14 / 96 (nonempty) | 17 | 16 | True |
 | c398e61a30e0a | 3/3 | 0 | 3 | 0 / 0 / 0 | 23 / 161 (nonempty) | 17 | 25 | True |
-| cf5a339b0cd90 | 3/3 | 0 | 3 | 0 / 0 / 0 | 14 / 96 (nonempty) | 17 | 16 | False |
+| c86889511725d | 2/3 | 1 | 3 | 0 / 0 / 0 | 13 / 92 (nonempty) | 17 | 15 | False |
+| c426be3c4660d | 1/3 | 2 | 3 | 0 / 0 / 0 | 13 / 92 (nonempty) | 17 | 15 | False |
 | cb5d7952a9c16 | 0/3 | 3 | 3 | 0 / 0 / 0 | 0 / 0 (empty) | 0 | 0 | False |
 | c5b6605346c90 | 0/3 | 3 | 3 | 1 / 0 / 1 | 0 / 0 (absent) | 0 | 1 | False |
 | cfce8f9789f52 | 0/3 | 3 | 3 | 1 / 3 / 4 | 0 / 0 (absent) | 0 | 1 | False |
