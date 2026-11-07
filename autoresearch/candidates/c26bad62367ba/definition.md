@@ -1,0 +1,1 @@
+Your own ability means using your own knowledge.
