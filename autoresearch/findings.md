@@ -1,6 +1,6 @@
 # Campaign leaderboard
 
-Status: running
+Status: user_stop
 
 3/3 is exploratory/provisional, not robust. Missing/partial/error ≠ clean. No wholly-unaided claim. Costs include file titles and link targets.
 
@@ -35,9 +35,11 @@ Status: running
 | c612e6b2ed384 | 0/3 | 3 | 3 | 0 / 0 / 0 | 1 / 10 (nonempty) | 17 | 3 | False |
 | cf19c35ab4de1 | 0/3 | 3 | 3 | 0 / 0 / 0 | 1 / 10 (nonempty) | 17 | 3 | False |
 | c78385b0f58df | 0/3 | 3 | 3 | 0 / 0 / 0 | 1 / 4 (nonempty) | 17 | 3 | False |
+| c07ce2c9f6ca0 | 0/3 | 3 | 3 | 0 / 0 / 0 | 1 / 14 (nonempty) | 17 | 3 | False |
 | c800f68970968 | 0/3 | 3 | 3 | 1 / 0 / 1 | 0 / 0 (empty) | 17 | 3 | False |
 | cce5747c015a7 | 0/3 | 3 | 3 | 0 / 0 / 0 | 2 / 15 (nonempty) | 17 | 4 | False |
 | c82e0f506563a | 0/3 | 3 | 3 | 0 / 0 / 0 | 2 / 15 (nonempty) | 17 | 4 | False |
+| c76b9f4b71943 | 0/3 | 3 | 3 | 0 / 0 / 0 | 2 / 18 (nonempty) | 17 | 4 | False |
 | ca9bc8571c261 | 0/3 | 3 | 3 | 0 / 0 / 0 | 4 / 29 (nonempty) | 17 | 6 | False |
 | ccc65d3bb7326 | 0/3 | 3 | 3 | 0 / 0 / 0 | 8 / 46 (nonempty) | 17 | 10 | False |
 | c91be84043ecf | 0/3 | 3 | 3 | 0 / 0 / 0 | 12 / 88 (nonempty) | 17 | 14 | False |
