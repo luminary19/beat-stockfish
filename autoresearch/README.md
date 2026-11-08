@@ -1,5 +1,54 @@
 # Continuing minimal-prompt campaign
 
+## Current user steering: timed exploration then 5 × 10 confirmation
+
+The November 8 request supersedes the indefinite campaign and the earlier
+three-replicate-only restriction for the explicitly authorized confirmation phase.
+`phased.py supervise` takes over at the current batch boundary, under the same
+inherited campaign lock. Its handoff STOP marker is temporary and ownership-checked;
+it will not clear an unrelated user stop or resume an exhausted quota.
+
+- Priority pilot: **your own reasoning** directly in the original sentence, no
+  definition asset or link, three episodes. The bare **own reasoning** replacement
+  is excluded.
+- Exploration deadline: **2026-11-08 11:31:58 UTC**. This is five hours from the
+  request; setup and handoff time count. Cutoff interrupts unfinished exploration,
+  preserving partial evidence and never replaying it. Cancellation has a short
+  process-cleanup grace period; no confirmation starts until actors have exited.
+- Then select five eligible exact prompt/asset packages and freeze the selection
+  before any confirmation outcome exists. Ten NEW episodes each, maximum four
+  concurrent actors, original per-episode budget/model/tools/grading/debrief.
+- Selection reserves the fully measured user-priority inline pilot as an informative
+  transfer test; then chooses best clean-rate/minimal-text linked reasoning,
+  knowledge, and explicit-definition candidates, filling remaining places by
+  performance and minimality. Partial/invalid pilots and duplicate fingerprints
+  are ineligible. Exact policy is preregistered in `phase-request.json`.
+- Confirmation metrics remain separate from three-game pilots. Selection doesn't
+  imply a full trace audit; pending audits and alternate-computation flags remain
+  explicit. No claim of wholly unaided play follows from supplied-engine non-use.
+
+Authoritative controller state: `phase-state.json`; live report:
+`to_human/PHASED.md` (also `to_human/LATEST.md`). The existing `research-state.json`
+retains pilot outcomes and points to the new phase state. Selection/protocol and
+fresh confirmation results: `confirmation/{protocol.json,results.json,results.md}`.
+Raw confirmation evidence: `../logs/minimal-prompt-confirmation/<id>/run-01..10/`.
+All phase transitions stop on confirmed quota exhaustion or a real blocker.
+
+Graceful user stop remains `touch autoresearch/STOP`. Immediate stop of the phased
+controller: `kill -TERM "$(cat autoresearch/phased.pid)"`. During handoff, replacing
+the temporary STOP contents with `user_stop` cancels continuation; the active legacy
+games finish normally. Do not start a second supervisor. Ambiguous starts and
+interrupted native ticks require reconciliation, never automatic replays.
+
+Verification: **53 offline tests passed** on 2026-11-08 at 06:41 UTC with
+`.venv/bin/python -m unittest discover -s autoresearch -p 'test_*.py' -v`.
+The new tests cover the complete handoff → prioritized pilot → deadline → 50-game
+transition, exactly ten unique slots per selected candidate, four-slot concurrency,
+no replay, quota interruption, exclusion of invalid pilots, and preservation of
+user stop markers. No actor API requests were used for verification.
+
+## Original supervisor (historical implementation)
+
 Start (after initialization): `.venv/bin/python autoresearch/campaign.py supervise`.
 Run that as an OpenCode background shell. The supervisor foreground-waits on a bounded
 batch executor; after ingestion and a result commit it invokes a fresh native
