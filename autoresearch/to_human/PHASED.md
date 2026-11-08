@@ -1,6 +1,6 @@
 # Timed search and confirmation
 
-Phase: **handoff**
+Phase: **exploration**
 
 Exploration cutoff (UTC): 2026-11-08T11:31:58.471126+00:00
 

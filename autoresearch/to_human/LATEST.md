@@ -1,6 +1,6 @@
 # Campaign leaderboard
 
-Status: user_stop
+Status: running
 
 3/3 is exploratory/provisional, not robust. Missing/partial/error ≠ clean. No wholly-unaided claim. Costs include file titles and link targets.
 
@@ -11,6 +11,7 @@ Status: user_stop
 | c03b1ccded318 | 3/3 | 0 | 3 | 0 / 0 / 0 | 11 / 66 (nonempty) | 17 | 13 | True |
 | cf5a339b0cd90 | 3/3 | 0 | 3 | 0 / 0 / 0 | 14 / 96 (nonempty) | 17 | 16 | True |
 | c398e61a30e0a | 3/3 | 0 | 3 | 0 / 0 / 0 | 23 / 161 (nonempty) | 17 | 25 | True |
+| c72559f21c2db | 3/3 | 0 | 3 | 2 / 1 / 2 | 0 / 0 (absent) | 0 | 2 | False |
 | cd6bc3ff4740d | 3/3 | 0 | 3 | 0 / 0 / 0 | 2 / 14 (nonempty) | 17 | 4 | False |
 | cc67bf0fac887 | 3/3 | 0 | 3 | 0 / 0 / 0 | 3 / 19 (nonempty) | 17 | 5 | False |
 | c1ee6a7cd5cec | 3/3 | 0 | 3 | 0 / 0 / 0 | 3 / 19 (nonempty) | 17 | 5 | False |
@@ -53,4 +54,4 @@ Every row links by candidate ID to `candidates/<id>/protocol.json`, exact prompt
 
 No new outcome is inferred from absence of logs. Zero lexical additions with a link/asset change is not an unchanged task. Historical step 5 own-only is excluded; historical cohorts are never pooled. Clean cohorts require a native full tool-trace audit before provisional promotion. Legal-move enumeration and alternative evaluators remain explicit confounds. There is no held-out validation cohort or trustworthy numerical quota counter.
 
-Stop reason: user_stop
+Stop reason: None
