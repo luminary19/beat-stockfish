@@ -1,6 +1,6 @@
 # Campaign leaderboard
 
-Status: blocker_infrastructure
+Status: exploration_complete
 
 3/3 is exploratory/provisional, not robust. Missing/partial/error ≠ clean. No wholly-unaided claim. Costs include file titles and link targets.
 
