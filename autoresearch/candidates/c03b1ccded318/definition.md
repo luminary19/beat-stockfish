@@ -1,0 +1,1 @@
+Your own ability means performing a task using your own reasoning.

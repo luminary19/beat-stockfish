@@ -1,0 +1,1 @@
+Ability is the capacity for performing a task.

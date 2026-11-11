@@ -1,0 +1,1 @@
+Your ability means performing a task using your own knowledge, understanding, and reasoning.
