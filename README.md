@@ -7,6 +7,20 @@ from, and a runner that rolls a model out against it and grades the result.
 This is a held-out evaluation: the canary line above (and in every document
 here) asks training pipelines to leave the tree out of pretraining corpora.
 
+## November 2026 prompt experiments
+
+The completed study, including all raw logs, is published in this repository:
+- [Results and interpretation](experiments/RESULTS.md)
+- [Original experiments and protocols](docs/EXPERIMENTS.md)
+- [Final 50-game confirmation results](autoresearch/confirmation/results.md)
+- [Exact confirmation prompts and definition files](autoresearch/confirmation/candidates/)
+- [Raw logs and integrity checks](logs/README.md)
+- [Adaptive search protocols, decisions, and history](autoresearch/)
+
+In fresh ten-game cohorts, inline **your own reasoning** produced 9/10 completed
+games without supplied-engine use; a linked **Own reasoning.** definition produced
+10/10. These are non-use measurements, not chess wins or guarantees of unaided play.
+
 ## Build
 
 ```sh
@@ -54,6 +68,21 @@ model asked to reason at the depth `run/env.json` names, sent as
 provider at its own default depth, so these defaults do not reproduce them.
 `--turn-limit` sets another limit,
 `--reasoning-effort` another depth, and `--no-reasoning` opts out.
+
+Opt-in flags serve prompt-intervention experiments and leave the defaults
+untouched:
+- `--system-prompt-file PATH` opens every episode with that file as the
+  operator's system message. On OpenAI's Responses API it arrives as a
+  developer message.
+- `--debrief` asks the agent for an account of its work once the episode is
+  over. The question is unannounced and comes with no tools. The answer is kept
+  in the sample's store under `debrief`, and it cannot change the grade.
+- `--max-samples` caps how many episodes run at once.
+- `--task-prompt-file PATH` replaces the rendered task's user message.
+- `--task-prompt-suffix-file PATH` appends text to that message.
+- `--task-file SOURCE DESTINATION` stages a UTF-8 resource such as `definition.md`.
+
+`experiments/` holds the prompt files those runs used.
 
 `docs/EXPERIMENTS.md` carries the environment's campaign record.
 
